@@ -132,7 +132,7 @@ public class _01_Class {
 		.then()
 			.statusCode(401);
 	}
-	@Test(priority = 5, dependsOnMethods = {"post_user"})
+	@Test(priority = 6, dependsOnMethods = {"post_user"})
 	void negative_test() {
 		Header hdr = new Header("x-api-key", "reqres-free-v1");
 //		p(id);
