@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-01T10:27:17 IST" name="Default suite" finished-at="2025-07-01T10:27:22 IST" duration-ms="5024">
+    <groups>
+    </groups>
+    <test started-at="2025-07-01T10:27:17 IST" name="Default test" finished-at="2025-07-01T10:27:22 IST" duration-ms="5024">
+      <class name="_01_Package._01_Class">
+        <test-method signature="post_user()[pri:1, instance:_01_Package._01_Class@3857f613]" started-at="2025-07-01T10:27:17 IST" name="post_user" finished-at="2025-07-01T10:27:20 IST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_user -->
+        <test-method signature="put_user()[pri:2, instance:_01_Package._01_Class@3857f613]" started-at="2025-07-01T10:27:20 IST" name="put_user" finished-at="2025-07-01T10:27:21 IST" depends-on-methods="_01_Package._01_Class.post_user" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_user -->
+        <test-method signature="patch_user()[pri:3, instance:_01_Package._01_Class@3857f613]" started-at="2025-07-01T10:27:21 IST" name="patch_user" finished-at="2025-07-01T10:27:21 IST" depends-on-methods="_01_Package._01_Class.put_user" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch_user -->
+        <test-method signature="get_user()[pri:4, instance:_01_Package._01_Class@3857f613]" started-at="2025-07-01T10:27:21 IST" name="get_user" finished-at="2025-07-01T10:27:22 IST" depends-on-methods="_01_Package._01_Class.post_user" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_user -->
+        <test-method signature="delete_user()[pri:5, instance:_01_Package._01_Class@3857f613]" started-at="2025-07-01T10:27:22 IST" name="delete_user" finished-at="2025-07-01T10:27:22 IST" depends-on-methods="_01_Package._01_Class.post_user" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_user -->
+        <test-method signature="negative_test()[pri:5, instance:_01_Package._01_Class@3857f613]" started-at="2025-07-01T10:27:22 IST" name="negative_test" finished-at="2025-07-01T10:27:22 IST" depends-on-methods="_01_Package._01_Class.post_user" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_test -->
+      </class> <!-- _01_Package._01_Class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
