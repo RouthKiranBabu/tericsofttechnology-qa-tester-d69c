@@ -1,0 +1,1 @@
+# tericsofttechnology-qa-tester-d69c
