@@ -1,0 +1,19 @@
+{
+  "name": "ui_automation_task",
+  "version": "1.0.0",
+  "description": "Log in using the available username and password from the login page.Apply the Price (Low to High) filter from the product sort dropdown.Add any two products to the cart.Go to the cart page.Assert and validate the name, description, and price for both selected products in the cart.Remove one of the two products from the cart.Navigate back to the products list page.Re-add the previously removed product to the cart.Return to the cart page.Click on Checkout.Enter a random First Name, Last Name, and Zip Code (ensure data is dynamically generated and not hardcoded).On the Checkout Overview page, assert and validate the total amount - it should match the sum of the selected product prices.Click on Finish.Assert the success message displayed on the final confirmation page.Click on Back to Home.Open the menu and log out.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "automation"
+  ],
+  "author": "Routh Kiran Babu",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.5.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
